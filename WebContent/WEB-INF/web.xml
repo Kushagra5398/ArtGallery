@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <servlet>
+ <servlet-name>Customer</servlet-name>
+ <servlet-class>CustomeRregister</servlet-class>
+  </servlet>
+  <servlet-mapping>
+ <servlet-name>Customer</servlet-name>
+ <url-pattern>/CustomeRregister</url-pattern>
+  </servlet-mapping>
+  <servlet>
+ <servlet-name>seller</servlet-name>
+ <servlet-class>Sregister</servlet-class>
+  </servlet>
+  <servlet-mapping>
+ <servlet-name>seller</servlet-name>
+ <url-pattern>/Sregister</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+ <servlet-name>CustomerLogin</servlet-name>
+ <servlet-class>com.CustomerLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+ <servlet-name>CustomerLogin</servlet-name>
+ <url-pattern>/CustomerLogin</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+ <servlet-name>slogin</servlet-name>
+ <servlet-class>com.slogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+ <servlet-name>slogin</servlet-name>
+ <url-pattern>/slogin</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+ <servlet-name>sale</servlet-name>
+ <servlet-class>com.sale</servlet-class>
+  </servlet>
+  <servlet-mapping>
+ <servlet-name>sale</servlet-name>
+ <url-pattern>/sale</url-pattern>
+  </servlet-mapping>
+    
+    
+  <servlet>
+ <servlet-name>Add</servlet-name>
+ <servlet-class>AddArticles</servlet-class>
+  </servlet>
+  <servlet-mapping>
+ <servlet-name>Add</servlet-name>
+ <url-pattern>/AddArticles</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Upload</servlet-name>
+  <servlet-class>UploadArticle</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Upload</servlet-name>
+  <url-pattern>/UploadArticle</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>img</servlet-name>
+    <servlet-class>com.GetImage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>img</servlet-name>
+    <url-pattern>/GetImage</url-pattern>
+    </servlet-mapping>
+</web-app>
+</elements>
